@@ -300,6 +300,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  gap: 5vh;
 }
 .team .content .text {
   width: 100%;
@@ -342,7 +343,6 @@ section {
   width: 100%;
 }
 .team .content .swiper .swiper-wrapper .swiper-slide {
-  width: 1170px;
   display: flex;
   justify-content: center;
   align-items: center;

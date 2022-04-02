@@ -301,6 +301,7 @@ section {
     width: 100%;
     @include flex();
     flex-flow: column;
+    gap: 5vh;
 
     .text {
       width: 100%;
@@ -344,7 +345,6 @@ section {
       width: 100%;
       .swiper-wrapper {
         .swiper-slide {
-          width: 1170px;
           @include flex();
           justify-content: flex-start;
           flex-flow: column;
